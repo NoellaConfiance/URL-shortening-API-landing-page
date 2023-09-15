@@ -1,0 +1,199 @@
+body{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    Padding: 25px;
+    margin: 90px;
+
+} 
+
+#top-heading{
+    flex-direction: row;
+    display: flex;
+    padding-top: 15px;
+    margin:0px;
+    justify-content:space-between;
+   
+}
+
+#top-heading>img{
+ width: 100px;
+ height: auto;
+ margin-right: 25px;
+}
+
+#top-heading #second{
+font-size: 9px;
+float: right;
+justify-self: left;
+padding:10px;
+
+}
+
+.Left-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+    margin-bottom: 40px;
+}
+
+.Left-heading button{
+    border-color: aqua;
+    border-radius: 20px;
+    background: rgb(0, 229, 255);
+    Margin-left: 20px;
+}
+
+.SecondPart{
+    height:300px;
+    justify-content: left;
+    display:flex;
+    align-items: center;
+}
+    
+.Started{
+border-color: aqua;
+border-radius: 20px;
+background: rgb(0, 229, 255);
+Margin-left: 20px;
+margin-top: 20px;
+}
+
+img{
+    width:20px;
+    height:auto
+}
+
+.logo img{
+    width: 500px;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left:400px;
+    margin-top: 70px;
+
+}
+
+.First-text{
+    flex:1;
+}
+
+.One{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height:auto;
+    flex:1;
+    flex-wrap: wrap;
+    
+    
+}
+
+h1{
+    width:300px
+ 
+}
+
+.Started{
+    border-color: aqua;
+    border-radius: 20px;
+    background: rgb(0, 229, 255);
+    Margin: 5px;
+    width:100px;
+}
+
+.Third-part{
+    background-color: rgb(20, 12, 27);
+    width:800px;
+    height:40px;
+    margin-top: 200px;
+    align-items: center;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.Third-part input{
+    width: 600px;
+    height:20px;
+    border-radius: 10px;
+}
+
+.Third-part button{
+    width:150px;
+    height:25px;
+    border-radius: 10px;
+    border-color: aqua;
+    background: rgb(0, 229, 255);
+}
+
+.Fourthpart{
+    align-items: center;
+    margin: 250px;
+    width:400px;
+    margin-top:80px;
+    margin-bottom:80px;
+    text-align: center;
+}
+
+.section{
+    background-color: gainsboro;
+}
+
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    position:relative;
+    gap:2rem;
+    line-gap-override:solid rgb(0, 149, 255);
+}
+
+.First-class{
+    border: solid rgb(255, 255, 255);
+    background-color: white;
+    padding:10px;
+    width:600px;
+    height:auto;
+    color:gray;
+    margin-left:40px;
+
+}
+
+h3{
+    color:black;
+    font-size: 18px;
+    font-family: poppins;
+}
+
+.Second-class{
+    border: solid white;
+    background-color: white;
+    padding:10px;
+    width:600px;
+    height:auto;
+    color:gray;
+    
+    
+}
+.Third-class{
+        border: solid white;
+        background-color: white;
+        padding:10px;
+        width:600px;
+        height:auto;
+        color:gray;  
+        margin-right:40px;  
+       
+}
+
+.flex-container img{
+    background-color: rgb(2, 2, 2);
+    position:absolute;
+    border-radius: 20px;
+    padding: 10px;
+    top:-10px;
+    z-index: 1;
+    object-fit: cover;
+    
+   
+}
