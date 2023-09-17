@@ -145,7 +145,7 @@ h1{
     flex-direction: row;
     position:relative;
     gap:2rem;
-    line-gap-override:solid rgb(0, 149, 255);
+    
 }
 
 .First-class{
@@ -156,6 +156,7 @@ h1{
     height:auto;
     color:gray;
     margin-left:40px;
+    
 
 }
 
@@ -172,7 +173,8 @@ h3{
     width:600px;
     height:auto;
     color:gray;
-    
+    align-self: baseline;
+   
     
 }
 .Third-class{
@@ -194,6 +196,65 @@ h3{
     top:-10px;
     z-index: 1;
     object-fit: cover;
-    
+}
+
+.Near-bottom{
+    background-color: hsl(260, 8%, 14%);
+    padding:30px;
+    margin-top: 80px;
+    text-align: center;
+    color:white;
    
 }
+
+.Text{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Get{
+    border-color: aqua;
+    border-radius: 20px;
+    background: rgb(0, 229, 255);
+    Margin: 5px;
+    width:100px;
+}
+
+.last-part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:4rem;
+    width: 900px;
+    height: fit-content;
+    background-color: rgb(0, 0, 7);
+    color:white;
+
+
+    
+}
+
+.last-part img{
+    width:20px;
+    height: 20px;
+    margin-top:40px;
+    color:white;
+      
+}
+
+.media{
+    display:flex;
+    flex-direction:row;
+    gap:1rem;
+    
+}
+
+.last-part ul{
+    list-style: none;
+}
+
+.newlogo{
+    width:100px;
+    margin-left: 60px;
+}
+
